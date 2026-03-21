@@ -7,31 +7,31 @@ const useCases = [
   {
     icon: Wrench,
     title: 'Job-Work Shop',
-    description: 'Small fabrication units jinhone daily 20-30 inquiries aati hain. Quotation manual banate the, ab 2 minutes mein aajata hai.',
+    description: 'Fabrication units jinka business mostly WhatsApp se chalta hai. Daily inquiries ko handle karna aasaan ho gaya with instant quotation generation.',
     highlights: [
-      'Daily 20-30 inquiries',
-      '₹50L–2Cr annual revenue',
-      'Materials vary per job',
+      'Inquiry capture from WhatsApp',
+      'Quick quotation generation',
+      'Lead conversion tracking',
     ],
   },
   {
     icon: Cog,
-    title: 'Auto Ancillary Manufacturer',
-    description: 'Medium-sized manufacturers jo automotive companies ke liye parts banate hain. Bulk orders ko track karna aasaan ho gaya.',
+    title: 'Manufacturing Units',
+    description: 'Manufacturers jo apne sales cycle ko shorter karna chahte hain aur lead capture improve karna chahte hain. QuotesMill har inquiry ko automatically samajhta hai.',
     highlights: [
-      'Bulk inquiry handling',
-      '₹1Cr–5Cr annual revenue',
-      'Complex materials & specs',
+      'Rapid inquiry processing',
+      'Automated quotation sharing',
+      'Follow-up management',
     ],
   },
   {
     icon: Boxes,
-    title: 'Plastic Parts Manufacturer',
-    description: 'Plastic injection molding plants joko different designs aur quantities banani padti hain. QuotesMill har inquiry ko samajhta hai.',
+    title: 'Custom & Specialty Manufacturing',
+    description: 'Businesses jo different designs aur specifications handle karti hain. Multi-modal aur vernacular support ke saath quick response dekh sakte hain.',
     highlights: [
-      'Multiple design variants',
-      '₹2Cr–10Cr annual revenue',
-      'Rapid follow-up required',
+      'Multi-language support',
+      'Voice & text inquiry handling',
+      'Dashboard analytics',
     ],
   },
 ]
@@ -43,10 +43,10 @@ export function UseCaseSection() {
         {/* Section header */}
         <div className="text-center mb-16 space-y-4 animate-in fade-in duration-500">
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white text-balance">
-            Banaya Gaya Manufacturers Jaisa Aap Ke Liye
+            Kaunse Manufacturers Use Kar Sakte Hain
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            See how manufacturers like you are using QuotesMill to manage inquiries and grow their business.
+            Yeh workflow perfect hai kisi bhi manufacturer yaa job-works (irrespective of their specific manufacturing categories) klye. Jinka business mostly WhatsApp se chalta hai ya migrate krna chahte hain yaa jinhein lead capture krke apni sales cycle choti krni hai.
           </p>
         </div>
 

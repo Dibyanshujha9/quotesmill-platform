@@ -105,8 +105,8 @@ export default function PrivacyPolicy() {
             If you have any questions or concerns about this Privacy Policy, contact us at:
           </p>
           <ul>
-            <li><strong>Email:</strong> contact@quotesmill.com</li>
-            <li><strong>WhatsApp:</strong> +91 98765 43210</li>
+            <li><strong>Phone:</strong> Sales @+91-9958521274</li>
+            <li><strong>Corporate Address:</strong> O-91B, Basement, SmartWorld Gems, Sector-89, Gurugram-122505, Haryana, India</li>
             <li><strong>Company:</strong> QuotesMill Tech Solutions LLP, India</li>
           </ul>
 

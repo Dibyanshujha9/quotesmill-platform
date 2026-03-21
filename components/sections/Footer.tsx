@@ -31,15 +31,15 @@ export function Footer() {
               <div className="w-8 h-8 rounded-lg bg-blue-900 flex items-center justify-center">
                 <span className="text-white font-bold text-sm">QM</span>
               </div>
-              <span className="font-bold text-slate-900 dark:text-white">QuotesMill</span>
+              <div>
+                <span className="font-bold text-slate-900 dark:text-white block">QuotesMill<span className="text-xs align-super">™</span></span>
+                <span className="text-xs text-green-600 dark:text-green-400 font-semibold">Quote Fast & Sell Faster</span>
+              </div>
             </Link>
-            <p className="text-sm text-slate-600 dark:text-slate-400">
-              Inquiry se payment tak, sab WhatsApp pe.
-            </p>
             {/* Social links */}
             <div className="flex gap-4 pt-4">
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919958521274"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 transition-colors"
@@ -83,10 +83,14 @@ export function Footer() {
         </div>
 
         {/* Bottom divider */}
-        <div className="border-t border-slate-200 dark:border-slate-700 pt-8">
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-600 dark:text-slate-400">
+        <div className="border-t border-slate-200 dark:border-slate-700 pt-8 space-y-4">
+          <div className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
+            <p><strong>Contact:</strong> Sales @+91-9958521274</p>
+            <p><strong>Corporate Address:</strong> O-91B, Basement, SmartWorld Gems, Sector-89, Gurugram-122505, Haryana, India</p>
+          </div>
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-600 dark:text-slate-400 border-t border-slate-200 dark:border-slate-700 pt-4">
             <p>© 2026 QuotesMill Tech Solutions LLP. Made in India.</p>
-            <p>Built for Indian manufacturers.</p>
+            <p>Built for MSMEs.</p>
           </div>
         </div>
       </div>

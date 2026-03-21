@@ -64,7 +64,7 @@ export function PricingSection() {
             PRICING
           </span>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-slate-900 dark:text-white text-balance">
-            Simple, transparent pricing
+            Pricing
           </h2>
           <p className="text-base sm:text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
             Choose the plan that fits your business. All plans include 14-day free trial.

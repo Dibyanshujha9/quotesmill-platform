@@ -6,26 +6,26 @@ import { MessageCircle, FileText, Bell, BarChart3 } from 'lucide-react'
 const features = [
   {
     icon: MessageCircle,
-    title: 'WhatsApp Se Inquiry Capture',
-    description: 'Customer ne WhatsApp pe photo, voice note ya text bheja? QuotesMill automatically samajhta hai kya chahiye.',
+    title: 'Chatbot Quotation share karta Hai',
+    description: 'Customer ne WhatsApp pe apni requirements share kiya? Multi-modal and Vernacular QuotesMill ne automatically uss information ko capture, understand, acknowledge and process kiya !!!',
     gradient: 'from-green-400 to-green-600',
   },
   {
     icon: FileText,
-    title: 'Intelligent Quotation Sharing',
-    description: 'Professional PDF quotation banao aur seedha WhatsApp pe bhejo — apni company letterhead ke saath.',
+    title: 'Professional PDF with your approval and letterhead, sirf 2 mins me ready and shared with your leads on one-tap',
+    description: 'Quotesmill apke kiye gaye approved quotation format ko use karke ek professional PDF quotation bannakr seedha apke customers ko share krta hai within mins (post your approval)',
     gradient: 'from-blue-400 to-blue-600',
   },
   {
     icon: Bell,
-    title: 'Follow-Up & Payment Reminders',
-    description: 'Kaunsa customer follow-up maang raha hai? QuotesMill yaad rakhta hai aur WhatsApp pe reminder bhejta hai — payment QR link ke saath.',
+    title: 'Auto reminders of payments, necessary follow-ups and payment QR & UPI ID sab WhatsApp pe share hota hai and apke dashboard pe track',
+    description: 'Kab aur kaunse customers ko kitni baar follow-up krna hai and kis chiz pe follow-up krna hai? Whether to know about their decision to place order or not? Or, advance ya outstanding payment reminders. Aur toh aur payment ka QR link generate karke apke upi id ke saath customer ko share krta hai, jisse payment seedha apke registered bank account mein apko receive hoti hai !!!',
     gradient: 'from-orange-400 to-orange-600',
   },
   {
     icon: BarChart3,
-    title: 'Simple Dashboard PWA',
-    description: 'Apne phone pe dekho — kitni inquiries aayi, kitni quotations bheji, kitna payment aaya. Koi app download nahi.',
+    title: 'Dashboard Analytics & Insights',
+    description: 'Only with a click on a link apko apke dashboard ka access milta hai, apne mobile browser pe dekho — kitni inquiries aayi?, kitne leads convert hue sales mein?, kitne current mein hot leads hain ya cold leads hain?, kitne payment defaulters hain, kitna aur kab kab payments apko receive hue?, daily, weekly and monthly kitne quotations share kiye gaye, quotes logs, history, etc., aur bhi bahut kuch, bagair koi bhi app download kiye.',
     gradient: 'from-purple-400 to-purple-600',
   },
 ]
@@ -37,10 +37,10 @@ export function FeaturesSection() {
         {/* Section header */}
         <div className="text-center mb-16 space-y-4 animate-in fade-in duration-500">
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white text-balance">
-            Kya Features Milenge?
+            Features
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Simple, powerful features designed for small manufacturers and job-work shops.
+            Yeh workflow perfect hai kisi bhi manufacturer yaa job-works (irrespective of their specific manufacturing categories) klye. Jinka business mostly WhatsApp se chalta hai ya migrate krna chahte hain yaa jinhein lead capture krke apni sales cycle choti krni hai quick quotation and follow-ups krke with minimum manual efforts.
           </p>
         </div>
 

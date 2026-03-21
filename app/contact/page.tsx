@@ -57,7 +57,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
             {/* WhatsApp */}
             <a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919958521274"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white dark:bg-slate-800 rounded-lg p-8 text-center border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-shadow"
@@ -71,7 +71,7 @@ export default function Contact() {
               <p className="text-slate-600 dark:text-slate-300 mb-4">
                 Fastest way to reach us. Instant response guaranteed.
               </p>
-              <p className="text-green-600 font-semibold">+91 98765 43210</p>
+              <p className="text-green-600 font-semibold">+91 9958521274</p>
             </a>
 
             {/* Email */}

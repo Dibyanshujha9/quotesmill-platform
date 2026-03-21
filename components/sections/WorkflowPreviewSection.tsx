@@ -89,7 +89,7 @@ export function WorkflowPreviewSection() {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-slate-600 dark:text-slate-300 mb-6 max-w-lg mx-auto">
-            Yeh workflow perfect hai ₹1Cr–5Cr annual revenue wale manufacturers ke liye. Chota, medium, ya bada business — sab ke liye.
+            Yeh workflow perfect hai kisi bhi manufacturer yaa job-works (irrespective of their specific manufacturing categories) klye. Jinka business mostly WhatsApp se chalta hai ya migrate krna chahte hain yaa jinhein lead capture krke apni sales cycle choti krni hai quick quotation and follow-ups krke with minimum manual efforts.
           </p>
         </div>
       </div>
