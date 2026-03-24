@@ -135,7 +135,7 @@ export default function About() {
             <p><span className="font-bold text-slate-900 dark:text-white">Company Name:</span> QuotesMill Tech Solutions LLP</p>
             <p><span className="font-bold text-slate-900 dark:text-white">Jurisdiction:</span> India</p>
             <p><span className="font-bold text-slate-900 dark:text-white">Status:</span> Building in public, beta launching soon</p>
-            <p><span className="font-bold text-slate-900 dark:text-white">Contact:</span> contact@quotesmill.com</p>
+            <p><span className="font-bold text-slate-900 dark:text-white">Contact:</span> Sales @+91-9958521274</p>
           </div>
         </div>
       </section>
@@ -150,7 +150,7 @@ export default function About() {
             Early access ke liye aaj hi register karo aur sabse pehle QuotesMill use karo.
           </p>
           <a
-            href="https://wa.me/919876543210?text=Hi%20QuotesMill%2C%20I%27d%20like%20to%20know%20more%20about%20early%20access"
+            href="https://wa.me/919958521274?text=Hi%20QuotesMill%2C%20I%27d%20like%20to%20know%20more%20about%20early%20access"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white text-green-700 font-bold py-3 px-8 rounded-full hover:bg-slate-100 transition-colors"

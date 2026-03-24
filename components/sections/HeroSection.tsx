@@ -34,6 +34,10 @@ export function HeroSection() {
             <p className="text-lg text-slate-600 dark:text-slate-300 text-balance leading-relaxed max-w-lg">
               Text & Voice supported with Hindi + English + 10 other regional languages
             </p>
+            
+            <div className="pt-4 text-sm text-slate-600 dark:text-slate-400">
+              <p>Contact – Sales @+91-9958521274</p>
+            </div>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a
@@ -66,7 +70,7 @@ export function HeroSection() {
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-green-600 rounded-full" />
-                <p className="text-sm font-medium text-slate-600 dark:text-slate-300">Multi-language Support</p>
+                <p className="text-sm font-medium text-slate-600 dark:text-slate-300">Text & Voice supported with Hindi + English + 10 other regional languages</p>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-green-600 rounded-full" />
