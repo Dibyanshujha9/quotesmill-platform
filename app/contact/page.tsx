@@ -38,7 +38,7 @@ export default function Contact() {
       <Navigation />
       
       {/* Contact Form */}
-      <section className="py-32 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-950">
+      <section className="py-32 px-4 sm:px-6 lg:px-8 mt-16 bg-white dark:bg-slate-950 min-h-screen">
         <div className="max-w-2xl mx-auto bg-white dark:bg-slate-800 rounded-lg p-8 border border-slate-200 dark:border-slate-700">
             <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-6">
               Form Bharo

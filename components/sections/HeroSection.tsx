@@ -6,7 +6,7 @@ import { ArrowRight, MessageCircle } from 'lucide-react'
 
 export function HeroSection() {
   return (
-    <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center overflow-hidden bg-white dark:bg-slate-950">
+    <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 mt-16 min-h-screen flex items-center overflow-hidden bg-white dark:bg-slate-950">
       {/* Background gradient mesh */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 right-0 w-96 h-96 bg-green-100/20 dark:bg-green-900/10 rounded-full blur-3xl" />

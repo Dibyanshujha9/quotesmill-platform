@@ -14,9 +14,9 @@ export function WhatsAppChat() {
   }, [])
 
   return (
-    <div className="glassmorphic rounded-2xl p-4 h-full flex flex-col overflow-hidden border border-white/20 dark:border-slate-700/50">
+    <div className="glassmorphic rounded-2xl p-4 h-full flex flex-col overflow-hidden border border-slate-200 dark:border-slate-700">
       {/* Header */}
-      <div className="bg-gradient-to-r from-indigo-900 to-green-500 rounded-t-xl -m-4 mb-2 p-4 pb-3">
+      <div className="bg-gradient-to-r from-green-600 to-green-700 rounded-xl -m-4 mb-2 p-4 pb-3">
         <h3 className="text-white font-semibold text-sm">QuotesMill Support</h3>
         <p className="text-white/80 text-xs">Online</p>
       </div>
@@ -25,7 +25,7 @@ export function WhatsAppChat() {
       <div className="flex-1 overflow-y-auto space-y-3 my-4">
         {/* Customer message */}
         <div className="flex justify-end">
-          <div className="bg-gradient-to-r from-indigo-900 to-indigo-800 text-white rounded-2xl rounded-tr-none px-3 py-2 max-w-xs text-sm">
+          <div className="bg-gradient-to-r from-green-600 to-green-500 text-white rounded-2xl rounded-tr-none px-3 py-2 max-w-xs text-sm">
             <p>I need a quote for 50 units of your premium service</p>
             <div className="flex justify-end gap-1 mt-1">
               <CheckCheck size={14} className="opacity-70" />

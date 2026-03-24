@@ -241,14 +241,14 @@
 
 /* Glassmorphism effect */
 .glassmorphic {
-  background: rgba(248, 250, 252, 0.7);
+  background: rgba(248, 250, 252, 0.9);
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(248, 250, 252, 0.3);
+  border: 1px solid rgba(248, 250, 252, 0.5);
 }
 
 .dark .glassmorphic {
-  background: rgba(15, 23, 42, 0.6);
-  border: 1px solid rgba(248, 250, 252, 0.1);
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(248, 250, 252, 0.2);
 }
 
 /* Gradient border effect */

@@ -8,7 +8,7 @@ export default function About() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-950 min-h-[50vh] flex items-center">
+      <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 mt-16 bg-white dark:bg-slate-950 min-h-[50vh] flex items-center">
         <div className="max-w-7xl mx-auto w-full">
           <div className="text-center space-y-4">
             <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 dark:text-white text-balance">
