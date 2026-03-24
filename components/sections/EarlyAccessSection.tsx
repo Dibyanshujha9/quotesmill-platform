@@ -122,7 +122,7 @@ export function EarlyAccessSection() {
                   name="mobileNumber"
                   value={formData.mobileNumber}
                   onChange={handleChange}
-                  placeholder="+91 98765 43210"
+                  placeholder="+91-9958521274"
                   required
                   className="w-full px-4 py-3 border border-slate-300 dark:border-slate-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
@@ -170,7 +170,7 @@ export function EarlyAccessSection() {
                   name="whatsappNumber"
                   value={formData.whatsappNumber}
                   onChange={handleChange}
-                  placeholder="+91 98765 43210"
+                  placeholder="+91-9958521274"
                   required
                   className="w-full px-4 py-3 border border-slate-300 dark:border-slate-600 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                 />
@@ -241,7 +241,7 @@ export function EarlyAccessSection() {
                   Jab tak hum aapko message nahi karte, aap yeh dekh sakte ho:
                 </p>
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/919958521274"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block mt-4 text-green-600 dark:text-green-400 hover:underline font-medium"

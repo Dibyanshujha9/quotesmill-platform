@@ -12,7 +12,7 @@ export default function HowItWorks() {
         <div className="max-w-7xl mx-auto w-full">
           <div className="text-center space-y-4">
             <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 dark:text-white text-balance">
-              Kaise Kaam Karta Hai QuotesMill?
+              How QuotesMill Works?
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
               WhatsApp pe inquiry se leke payment tak — step by step samajhiye

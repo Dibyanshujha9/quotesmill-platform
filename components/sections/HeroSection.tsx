@@ -7,6 +7,16 @@ import { ArrowRight, MessageCircle } from 'lucide-react'
 export function HeroSection() {
   return (
     <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-screen flex items-center overflow-hidden bg-white dark:bg-slate-950">
+      {/* Contact Sales Banner */}
+      <div className="absolute top-20 right-4 sm:right-6 lg:right-8 z-50 animate-in slide-in-from-top duration-700">
+        <a href="https://wa.me/919958521274" target="_blank" rel="noopener noreferrer" className="bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 shadow-md hover:shadow-lg transition-all rounded-full px-4 py-2 flex items-center gap-2 group">
+          <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+          <span className="text-xs sm:text-sm font-semibold text-slate-700 dark:text-slate-200 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors">
+            Contact – Sales @+91-9958521274
+          </span>
+        </a>
+      </div>
+
       {/* Background gradient mesh */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 right-0 w-96 h-96 bg-green-100/20 dark:bg-green-900/10 rounded-full blur-3xl" />
@@ -26,13 +36,13 @@ export function HeroSection() {
             <h1 className="text-5xl sm:text-6xl lg:text-6xl font-bold text-balance leading-tight text-slate-900 dark:text-white">
               QuotesMill<span className="text-lg align-super">™</span>
             </h1>
-            
+
             <p className="text-2xl sm:text-3xl font-semibold text-green-600 dark:text-green-400 text-balance">
               Quote Fast & Sell Faster
             </p>
 
             <p className="text-lg text-slate-600 dark:text-slate-300 text-balance leading-relaxed max-w-lg">
-              Text & Voice supported with Hindi + English + 10 other regional languages
+              India's first WhatsApp based solution for manufacturers & job-work shops. Manage inquiries, send professional quotations, and follow up — all from WhatsApp. No app download needed.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
@@ -58,15 +68,15 @@ export function HeroSection() {
             <div className="grid grid-cols-2 gap-4 pt-8">
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-green-600 rounded-full" />
-                <p className="text-sm font-medium text-slate-600 dark:text-slate-300">Built for MSMEs</p>
+                <p className="text-sm font-medium text-slate-600 dark:text-slate-300">Built exclusively for MSMEs</p>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-green-600 rounded-full" />
                 <p className="text-sm font-medium text-slate-600 dark:text-slate-300">WhatsApp-First</p>
               </div>
-              <div className="flex items-center gap-2">
-                <div className="w-3 h-3 bg-green-600 rounded-full" />
-                <p className="text-sm font-medium text-slate-600 dark:text-slate-300">Multi-language Support</p>
+              <div className="flex items-center gap-2 col-span-2 sm:col-span-1">
+                <div className="w-3 h-3 bg-green-600 rounded-full flex-shrink-0" />
+                <p className="text-sm font-medium text-slate-600 dark:text-slate-300">Text & Voice supported with Hindi + English + 10 other regional languages</p>
               </div>
               <div className="flex items-center gap-2">
                 <div className="w-3 h-3 bg-green-600 rounded-full" />

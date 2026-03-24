@@ -21,15 +21,15 @@ const steps = [
   {
     number: 3,
     icon: FileText,
-    title: 'Quotation Bhejo',
-    description: 'Professional PDF with your letterhead. 2 minutes mein ready.',
+    title: 'Chatbot Quotation share karta Hai',
+    description: 'Professional PDF with your approval and letterhead, sirf 2 mins me ready and shared with your leads on one-tap',
     color: 'from-orange-400 to-orange-600',
   },
   {
     number: 4,
     icon: CheckCircle,
     title: 'Follow-Up & Payment',
-    description: 'Auto reminders, payment QR link. Sab WhatsApp mein track hoga.',
+    description: 'Auto reminders of payments, necessary follow-ups and payment QR & UPI ID sab WhatsApp pe share hota hai and apke dashboard pe track.',
     color: 'from-purple-400 to-purple-600',
   },
 ]
@@ -41,7 +41,7 @@ export function WorkflowPreviewSection() {
         {/* Section header */}
         <div className="text-center mb-16 space-y-4 animate-in fade-in duration-500">
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white text-balance">
-            Kaise Kaam Karta Hai?
+            How it Works?
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
             4 simple steps se inquiry se payment tak — sirf WhatsApp mein.

@@ -90,7 +90,7 @@ export function Footer() {
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-600 dark:text-slate-400 border-t border-slate-200 dark:border-slate-700 pt-4">
             <p>© 2026 QuotesMill Tech Solutions LLP. Made in India.</p>
-            <p>Built for MSMEs.</p>
+            <p>Built exclusively for MSMEs.</p>
           </div>
         </div>
       </div>
