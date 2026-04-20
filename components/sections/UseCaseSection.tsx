@@ -9,7 +9,7 @@ const useCases = [
     title: 'Job-Work Shop',
     description: 'Fabrication units jinka business mostly WhatsApp se chalta hai. Daily inquiries ko handle karna aasaan ho gaya with instant quotation generation.',
     highlights: [
-      'Inquiry capture from WhatsApp',
+      'Enquiry capture from WhatsApp',
       'Quick quotation generation',
       'Lead conversion tracking',
     ],
@@ -17,9 +17,9 @@ const useCases = [
   {
     icon: Cog,
     title: 'Manufacturing Units',
-    description: 'Manufacturers jo apne sales cycle ko shorter karna chahte hain aur lead capture improve karna chahte hain. QuotesMill har inquiry ko automatically samajhta hai.',
+    description: 'Manufacturers jo apne sales cycle ko shorter karna chahte hain aur lead capture improve karna chahte hain. QuotesMill har enquiry ko automatically samajhta hai.',
     highlights: [
-      'Rapid inquiry processing',
+      'Rapid Enquiry processing',
       'Automated quotation sharing',
       'Follow-up management',
     ],
@@ -30,7 +30,7 @@ const useCases = [
     description: 'Businesses jo different designs aur specifications handle karti hain. Multi-modal aur vernacular support ke saath quick response dekh sakte hain.',
     highlights: [
       'Multi-language support',
-      'Voice & text inquiry handling',
+      'Voice & text Enquiry handling',
       'Dashboard analytics',
     ],
   },

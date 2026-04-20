@@ -9,7 +9,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 const _notoSansDevanagari = Noto_Sans_Devanagari({ subsets: ["devanagari"], weight: ["400", "500", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: 'QuotesMill - WhatsApp Pe Inquiry? Quotation Bhejo Minutes Mein',
+  title: 'QuotesMill - WhatsApp Pe Enquiry? Quotation Bhejo Minutes Mein',
   description: 'WhatsApp-based solution for Indian manufacturers to manage inquiries, send quotations, and follow up. No app download needed.',
   generator: 'v0.app',
   icons: {

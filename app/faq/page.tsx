@@ -10,7 +10,7 @@ import {
 const faqs = [
   {
     question: 'QuotesMill kya hai?',
-    answer: 'QuotesMill ek WhatsApp-based solution hai manufacturers aur job-work shops ke liye. Customer ne inquiry di WhatsApp pe? QuotesMill automatically samjhta hai aur quotation banata hai. Bas itna hi, simple!'
+    answer: 'QuotesMill ek WhatsApp-based solution hai manufacturers aur job-work shops ke liye. Customer ne enquiry di WhatsApp pe? QuotesMill automatically samjhta hai aur quotation banata hai. Bas itna hi, simple!'
   },
   {
     question: 'Kya mujhe koi app download karni padegi?',
@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: 'Kya ye Hindi mein kaam karta hai?',
-    answer: 'Haan! Hindi, Hinglish, aur English—teeno mein kaam karta hai. Customer ne Hindi mein inquiry di? Hum samajh jayenge. Owner ko Hinglish se zyada comfortable lage? Hum Hinglish mein baat karenge. Simple language, no jargon.'
+    answer: 'Haan! Hindi, Hinglish, aur English—teeno mein kaam karta hai. Customer ne Hindi mein enquiry di? Hum samajh jayenge. Owner ko Hinglish se zyada comfortable lage? Hum Hinglish mein baat karenge. Simple language, no jargon.'
   },
   {
     question: 'Kya ye abhi available hai?',
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: 'IndiaMART se jo leads aati hain, unka kya?',
-    answer: 'Good question! Customer ne IndiaMART se inquiry forward ki? Hum directly WhatsApp pe receive kar sakte ho, ya manually WhatsApp group mein paste kar sakte ho. QuotesMill dono tarike mein parse karega. Next version mein direct IndiaMART integration add karenge.'
+    answer: 'Good question! Customer ne IndiaMART se enquiry forward ki? Hum directly WhatsApp pe receive kar sakte ho, ya manually WhatsApp group mein paste kar sakte ho. QuotesMill dono tarike mein parse karega. Next version mein direct IndiaMART integration add karenge.'
   },
   {
     question: 'Quotation mein meri company ka naam aur logo aayega?',

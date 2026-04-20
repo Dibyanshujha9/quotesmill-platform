@@ -15,13 +15,13 @@ export default function HowItWorks() {
               How QuotesMill Works?
             </h1>
             <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-              WhatsApp pe inquiry se leke payment tak — step by step samajhiye
+              WhatsApp pe enquiry se leke payment tak — step by step samajhiye
             </p>
           </div>
         </div>
       </section>
 
-      {/* Step 1: Inquiry Capture */}
+      {/* Step 1: Enquiry Capture */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-900/50">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -33,11 +33,11 @@ export default function HowItWorks() {
                   </div>
                 </div>
                 <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
-                  A. Inquiry Capture
+                  A. Enquiry Capture
                 </h2>
               </div>
               <p className="text-lg text-slate-600 dark:text-slate-300">
-                Customer ne WhatsApp pe inquiry bhej di? Koi baat nahi. QuotesMill sab format samjhta hai:
+                Customer ne WhatsApp pe Enquiry bhej di? Koi baat nahi. QuotesMill sab format samjhta hai:
               </p>
               <ul className="space-y-3">
                 {['Text (Hindi/English/Hinglish)', 'Photos & drawings', 'Voice notes', 'IndiaMART/TradeIndia messages (forwarded)'].map((item, idx) => (
@@ -57,7 +57,7 @@ export default function HowItWorks() {
                 </div>
                 <div className="flex justify-start">
                   <div className="bg-slate-100 dark:bg-slate-700 rounded-lg p-3 max-w-xs text-sm">
-                    ✅ Inquiry received! Processing your request...
+                    ✅ Enquiry received! Processing your request...
                   </div>
                 </div>
               </div>
@@ -155,12 +155,12 @@ export default function HowItWorks() {
               </h2>
             </div>
             <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl">
-              Har inquiry ka status track karo—kaunsi quoted hai, kaunsi won, kaunsi lost:
+              Har Enquiry ka status track karo—kaunsi quoted hai, kaunsi won, kaunsi lost:
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
             {[
-              { label: 'Inquiry', value: '24' },
+              { label: 'Enquiry', value: '24' },
               { label: 'Quoted', value: '18' },
               { label: 'Won', value: '12' },
               { label: 'Paid', value: '10' },

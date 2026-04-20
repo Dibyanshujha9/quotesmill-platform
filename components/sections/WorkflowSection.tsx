@@ -35,7 +35,7 @@ export function WorkflowSection() {
             Streamlined Workflow
           </h2>
           <p className="text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            From customer inquiry to deal closure in minutes, not hours.
+            From customer enquiry to deal closure in minutes, not hours.
           </p>
         </div>
 

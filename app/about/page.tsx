@@ -32,7 +32,7 @@ export default function About() {
               India mein 6 crore+ chhote manufacturing businesses hain—CNC shops, auto ancillaries, plastic parts makers, sheet metal workers. Un sabke paas ek common problem hai:
             </p>
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-semibold mb-6 border-l-4 border-orange-500 pl-4">
-              "WhatsApp pe inquiries aati hain, lekin quotation banana padta hai manually. Phone pe bajti hai, customer chala jata hai, payment hota nahi."
+              "WhatsApp pe enquiries aati hain, lekin quotation manually bhejna padta hai. Delay hone ke karan, eek lead ka conversion customer me nahi hopata becaude lead kisi aur vendor pe tab tak shift ho jata hai ya kahin aaur se usse better and timely quotation milti hai, aaur yeh problem khass kar New Inbound Leads ke case main bahut jayada hoti hai"
             </p>
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
               Hum yeh problem solve karne aa gaye. QuotesMill sirf WhatsApp pe kaam karta hai—koi app download nahi, koi complicated setup nahi. Bas connect karo aur shuru karo.
@@ -51,11 +51,11 @@ export default function About() {
             {[
               {
                 title: 'CNC & VMC Job-Work Shops',
-                desc: 'Jinhein har din 10-20 inquiries aati hain, manual quotation se time waste hota hai',
+                desc: 'Jinhein har din 10-20 enquiries aati hain, manual quotation se time waste hota hai',
               },
               {
                 title: 'Auto Ancillary Manufacturers',
-                desc: 'OEM clients ko raat ko drawing aati hai, morning tak quote chahiye hota hai',
+                desc: 'OEM clients ki drawings ya requirements, post-working hours aati hai, jinhein turant quotes chaiye hota hai.',
               },
               {
                 title: 'Plastic Parts Makers',
@@ -73,9 +73,9 @@ export default function About() {
             ))}
           </div>
           <div className="mt-8 p-6 bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-800 rounded-lg">
-            <p className="text-slate-700 dark:text-slate-300">
+            {/* <p className="text-slate-700 dark:text-slate-300">
               <span className="font-bold text-slate-900 dark:text-white">₹1 Cr – ₹5 Cr</span> annual revenue wale small-mid manufacturers jinhein profit maximize karna hai aur wasted admin time reduce karna hai.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -98,11 +98,11 @@ export default function About() {
               },
               {
                 title: 'India-Native',
-                desc: 'GST, UPI, Indian accounting. US SaaS features tumhare liye koi use nahi hain.',
+                desc: 'GST, UPI, Indian accounting. US SaaS features aapke liye koi use nahi hain.',
               },
               {
                 title: 'Simple',
-                desc: 'Koi API docs nahi, koi integrations nahi. Ek click aur shuru. Bus itna hi.',
+                desc: 'Koi API docs nahi, koi integrations nahi. Ek click aur shuru. Bas itna hi.',
               },
               {
                 title: 'Privacy-First',
@@ -144,7 +144,7 @@ export default function About() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-900 to-green-700 text-white">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <h2 className="text-4xl font-bold">
-            Samjh Aaya Kahani? Ab Shuru Karte Hain
+            Samjh Aayi? Ab Shuru Karte Hain
           </h2>
           <p className="text-xl opacity-90">
             Early access ke liye aaj hi register karo aur sabse pehle QuotesMill use karo.

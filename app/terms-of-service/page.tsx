@@ -26,7 +26,7 @@ export default function TermsOfService() {
             <strong>Service Provider:</strong> QuotesMill Tech Solutions LLP, a company registered in India
           </p>
           <p>
-            <strong>Service Description:</strong> QuotesMill is a WhatsApp-based inquiry management and quotation platform designed for small and medium manufacturers. Users can capture customer inquiries via WhatsApp, generate professional quotations, manage sales pipelines, and track payments—all within WhatsApp without requiring a separate app.
+            <strong>Service Description:</strong> QuotesMill is a WhatsApp-based enquiry management and quotation platform designed for small and medium manufacturers. Users can capture customer inquiries via WhatsApp, generate professional quotations, manage sales pipelines, and track payments—all within WhatsApp without requiring a separate app.
           </p>
 
           <h2>2. Eligibility</h2>
@@ -119,7 +119,7 @@ export default function TermsOfService() {
           </p>
           <ul>
             <li><strong>Phone:</strong> Sales @+91-9958521274</li>
-            <li><strong>Corporate Address:</strong> O-91B, Basement, SmartWorld Gems, Sector-89, Gurugram-122505, Haryana, India</li>
+            <li><strong>Corporate Address:</strong> 1st Floor, Enkya Tower, Plot No. B&B1, Vanijya Kunj, Udyog Vihar, Phase-5, Opposite Cyber Hub, Gurugram-122016, Haryana</li>
             <li><strong>Company:</strong> QuotesMill Tech Solutions LLP, India</li>
           </ul>
 

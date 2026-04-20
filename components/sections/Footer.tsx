@@ -86,7 +86,7 @@ export function Footer() {
         <div className="border-t border-slate-200 dark:border-slate-700 pt-8 space-y-4">
           <div className="space-y-2 text-sm text-slate-600 dark:text-slate-400">
             <p><strong>Contact:</strong> Sales @+91-9958521274</p>
-            <p><strong>Corporate Address:</strong> O-91B, Basement, SmartWorld Gems, Sector-89, Gurugram-122505, Haryana, India</p>
+            <p><strong>Corporate Address:</strong> 1st Floor, Enkya Tower, Plot No. B&B1, Vanijya Kunj, Udyog Vihar, Phase-5, Opposite Cyber Hub, Gurugram-122016, Haryana</p>
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-600 dark:text-slate-400 border-t border-slate-200 dark:border-slate-700 pt-4">
             <p>© 2026 QuotesMill Tech Solutions LLP. Made in India.</p>

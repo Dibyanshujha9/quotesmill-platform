@@ -13,7 +13,7 @@ export function DemoSection() {
             Animation se Samjhein
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Real WhatsApp chat flow: Customer inquires → QuotesMill understands → Owner sends quotation
+            Real WhatsApp chat flow: Lead Enquiry cpmes → QuotesMill understands it → Quotation shared(post your approval) → Follow-ups + payment remainders
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export function DemoSection() {
                 Aisa Kaise Hota Hai
               </h3>
               <p className="text-slate-600 dark:text-slate-300">
-                3 simple steps to convert inquiry into quotation:
+                3 simple steps to convert enquiry into quotation:
               </p>
             </div>
 
@@ -126,12 +126,12 @@ export function DemoSection() {
                 {
                   step: '3',
                   title: 'Quotation 2 Minutes Mein',
-                  desc: 'Professional PDF quotation with your company letterhead. WhatsApp pe send hojata hai.',
+                  desc: 'Professional PDF quotation (apke one-tap approval ke bad) with your company letterhead. Whatsapp pe share hojata hai aapke customer ko !',
                 },
                 {
                   step: '4',
                   title: 'Follow-Up & Payment',
-                  desc: 'Auto-reminders bheje jaye. Payment QR link attached rahe. Sab track hoga dashboard mein.',
+                  desc: 'Payment QR link with UPI id share hone ke baad, automated reminders & follow-ups jaate hain. Apke dashboard pe sab track hota hai',
                 },
               ].map((item, idx) => (
                 <Card

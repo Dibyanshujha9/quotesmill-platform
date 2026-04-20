@@ -30,7 +30,7 @@ export default function PrivacyPolicy() {
           <p>We collect the following types of information:</p>
           <ul>
             <li><strong>Personal Information:</strong> Name, business name, WhatsApp number, email, city, and any business details you provide</li>
-            <li><strong>Inquiry Data:</strong> Customer inquiries, specifications, materials, quantities, drawings, photos, and voice notes shared via WhatsApp</li>
+            <li><strong>Enquiry Data:</strong> Customer inquiries, specifications, materials, quantities, drawings, photos, and voice notes shared via WhatsApp</li>
             <li><strong>Quotation Data:</strong> Quotations generated, pricing, GST, terms, customer details, and validity periods</li>
             <li><strong>Usage Data:</strong> How you use QuotesMill—which features, how often, when, and from where</li>
             <li><strong>Device Data:</strong> Device type, browser, IP address, and approximate location (for analytics only)</li>
@@ -106,7 +106,7 @@ export default function PrivacyPolicy() {
           </p>
           <ul>
             <li><strong>Phone:</strong> Sales @+91-9958521274</li>
-            <li><strong>Corporate Address:</strong> O-91B, Basement, SmartWorld Gems, Sector-89, Gurugram-122505, Haryana, India</li>
+            <li><strong>Corporate Address:</strong> 1st Floor, Enkya Tower, Plot No. B&B1, Vanijya Kunj, Udyog Vihar, Phase-5, Opposite Cyber Hub, Gurugram-122016, Haryana</li>
             <li><strong>Company:</strong> QuotesMill Tech Solutions LLP, India</li>
           </ul>
 

@@ -7,7 +7,7 @@ const steps = [
   {
     number: 1,
     icon: MessageCircle,
-    title: 'Inquiry Aati Hai',
+    title: 'Enquiry Aati Hai',
     description: 'Customer WhatsApp par photo, message ya voice note bhejta hai.',
     color: 'from-green-400 to-green-600',
   },
@@ -44,7 +44,7 @@ export function WorkflowPreviewSection() {
             How it Works?
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            4 simple steps se inquiry se payment tak — sirf WhatsApp mein.
+            4 simple steps se enquiry se payment tak — sirf WhatsApp mein.
           </p>
         </div>
 
