@@ -13,7 +13,7 @@ export function DemoSection() {
             Animation se Samjhein
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            Real WhatsApp chat flow: Lead Enquiry cpmes → QuotesMill understands it → Quotation shared(post your approval) → Follow-ups + payment remainders
+            Real WhatsApp chat flow: Lead Enquiry comes → QuotesMill understands it → Quotation shared(post your approval) → Follow-ups + payment remainders
           </p>
         </div>
 
@@ -104,7 +104,7 @@ export function DemoSection() {
           <div className="space-y-6 animate-in slide-in-from-right duration-500">
             <div>
               <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">
-                Aisa Kaise Hota Hai
+                Aisa Kaise Hota Hai ?
               </h3>
               <p className="text-slate-600 dark:text-slate-300">
                 3 simple steps to convert enquiry into quotation:
@@ -115,18 +115,18 @@ export function DemoSection() {
               {[
                 {
                   step: '1',
-                  title: 'Customer WhatsApp Karta Hai',
-                  desc: 'Photo, message, or voice note bheje — kuch bhi.',
+                  title: 'Lead Whatsapp Karte Hain',
+                  desc: 'Photo, message, or voice note bheje.',
                 },
                 {
                   step: '2',
                   title: 'AI Samajhta Hai (Automatically)',
-                  desc: 'Product, quantity, material, specs sab extract hota hai. Aap edit kar sakte ho.',
+                  desc: 'Product, quantity, material, specs sab extract hota hai.',
                 },
                 {
                   step: '3',
-                  title: 'Quotation 2 Minutes Mein',
-                  desc: 'Professional PDF quotation (apke one-tap approval ke bad) with your company letterhead. Whatsapp pe share hojata hai aapke customer ko !',
+                  title: 'Quotation 2 to 5 Minutes Mein',
+                  desc: 'Professional PDF quotation (apke one-tap approval ke bad) with your company letterhead. Whatsapp pe share hojata hai aapke lead ko !',
                 },
                 {
                   step: '4',

@@ -6,7 +6,7 @@ export default function About() {
   return (
     <main className="relative w-full overflow-x-hidden">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-950 min-h-[50vh] flex items-center">
         <div className="max-w-7xl mx-auto w-full">
@@ -32,10 +32,10 @@ export default function About() {
               India mein 6 crore+ chhote manufacturing businesses hain—CNC shops, auto ancillaries, plastic parts makers, sheet metal workers. Un sabke paas ek common problem hai:
             </p>
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-semibold mb-6 border-l-4 border-orange-500 pl-4">
-              "WhatsApp pe enquiries aati hain, lekin quotation manually bhejna padta hai. Delay hone ke karan, eek lead ka conversion customer me nahi hopata becaude lead kisi aur vendor pe tab tak shift ho jata hai ya kahin aaur se usse better and timely quotation milti hai, aaur yeh problem khass kar New Inbound Leads ke case main bahut jayada hoti hai"
+              "WhatsApp pe enquiries aati hain, lekin quotation manually bhejna padta hai. Delay hone ke karan, ek lead customer me convert nahi hopata because lead kisi aur vendor pe tab tak shift ho jata hai ya kahin aaur se usse better and timely quotation mil jati hai, aaur yeh problem khass kar New Inbound Leads ke case main bahut jayada hoti hai"
             </p>
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-              Hum yeh problem solve karne aa gaye. QuotesMill sirf WhatsApp pe kaam karta hai—koi app download nahi, koi complicated setup nahi. Bas connect karo aur shuru karo.
+              Hum yehi problem solve kar rahe hain. QuotesMill sirf WhatsApp pe kaam karta hai—koi app download nahi, koi complicated setup nahi. Bas connect karo aur shuru hojao.
             </p>
           </div>
         </div>
@@ -45,13 +45,13 @@ export default function About() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-950">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-12 text-center">
-            Hum Kiske Liye Banate Hain
+            Quotesmill kinke liye bana Hain ?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
                 title: 'CNC & VMC Job-Work Shops',
-                desc: 'Jinhein har din 10-20 enquiries aati hain, manual quotation se time waste hota hai',
+                desc: 'Jinhein har din 5-20 enquiries aati hain, manual quotation se time waste hota hai',
               },
               {
                 title: 'Auto Ancillary Manufacturers',

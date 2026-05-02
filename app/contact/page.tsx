@@ -3,9 +3,11 @@
 import { Navigation } from '@/components/sections/Navigation'
 import { Footer } from '@/components/sections/Footer'
 import { MessageCircle, Mail, Phone } from 'lucide-react'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 export default function Contact() {
+  const formRef = useRef<HTMLFormElement>(null)
   const [formData, setFormData] = useState({
     name: '',
     businessName: '',
@@ -14,16 +16,51 @@ export default function Contact() {
     message: '',
   })
   const [submitted, setSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [error, setError] = useState('')
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Simple form submission handling
-    console.log('Form submitted:', formData)
-    setSubmitted(true)
-    setTimeout(() => {
-      setSubmitted(false)
+    setIsSubmitting(true)
+    setError('')
+
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+
+    if (!serviceId || !templateId || !publicKey) {
+      console.error('EmailJS keys are missing from environment variables')
+      setError('System configuration error. Please try again later.')
+      setIsSubmitting(false)
+      return
+    }
+
+    try {
+      // Initialize EmailJS with Public Key
+      emailjs.init(publicKey)
+
+      const response = await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          from_name: formData.name,
+          business_name: formData.businessName,
+          whatsapp_number: formData.whatsapp,
+          city: formData.city,
+          message: formData.message,
+          reply_to: 'contact@quotesmill.com',
+        }
+      )
+
+      console.log('EmailJS Success:', response.status, response.text)
+      setSubmitted(true)
       setFormData({ name: '', businessName: '', whatsapp: '', city: '', message: '' })
-    }, 3000)
+    } catch (err: any) {
+      console.error('EmailJS Detailed Error:', err)
+      setError(`Failed to send: ${err?.text || err?.message || 'Check console for details'}`)
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -43,7 +80,13 @@ export default function Contact() {
             <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-6 text-center">
               Form Bharo
             </h2>
-            
+
+            {error && (
+              <div className="mb-6 p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg text-red-600 dark:text-red-400 text-sm">
+                {error}
+              </div>
+            )}
+
             {submitted ? (
               <div className="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-lg p-6 text-center">
                 <p className="text-green-700 dark:text-green-300 font-semibold mb-2">
@@ -52,6 +95,12 @@ export default function Contact() {
                 <p className="text-slate-600 dark:text-slate-300">
                   Hum 24 ghante mein reply karenge.
                 </p>
+                <button
+                  onClick={() => setSubmitted(false)}
+                  className="mt-4 text-green-600 dark:text-green-400 text-sm font-semibold hover:underline"
+                >
+                  Bhejo doosra message
+                </button>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5">
@@ -132,9 +181,17 @@ export default function Contact() {
 
                 <button
                   type="submit"
-                  className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg transition-colors"
+                  disabled={isSubmitting}
+                  className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 rounded-lg transition-colors disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 >
-                  Bhej Do (24 Hour Response)
+                  {isSubmitting ? (
+                    <>
+                      <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                      Bhej Rahe Hain...
+                    </>
+                  ) : (
+                    'Bhej Do (24 Hour Response)'
+                  )}
                 </button>
               </form>
             )}

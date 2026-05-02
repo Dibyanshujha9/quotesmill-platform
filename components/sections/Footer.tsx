@@ -1,12 +1,14 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { MessageCircle, Mail, Linkedin } from 'lucide-react'
 
 const footerLinks = {
   product: [
     { label: 'How It Works', href: '/how-it-works' },
-    { label: 'Features', href: '#features' },
+    { label: 'Features', href: '/features' },
+    { label: 'Pricing', href: '/pricing' },
     { label: 'FAQ', href: '/faq' },
   ],
   company: [
@@ -28,8 +30,13 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2 group">
-              <div className="w-8 h-8 rounded-lg bg-blue-900 flex items-center justify-center">
-                <span className="text-white font-bold text-sm">QM</span>
+              <div className="relative w-16 h-16 overflow-hidden rounded-lg">
+                <Image
+                  src="/logo.png"
+                  alt="QuotesMill Logo"
+                  fill
+                  className="object-contain"
+                />
               </div>
               <div>
                 <span className="font-bold text-slate-900 dark:text-white block">QuotesMill<span className="text-xs align-super">™</span></span>
@@ -90,7 +97,7 @@ export function Footer() {
           </div>
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-slate-600 dark:text-slate-400 border-t border-slate-200 dark:border-slate-700 pt-4">
             <p>© 2026 QuotesMill Tech Solutions LLP. Made in India.</p>
-            <p>Built exclusively for MSMEs.</p>
+            <p>Built exclusively for Bharatiya MSMEs.</p>
           </div>
         </div>
       </div>

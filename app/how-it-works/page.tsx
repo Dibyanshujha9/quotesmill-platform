@@ -6,7 +6,7 @@ export default function HowItWorks() {
   return (
     <main className="relative w-full overflow-x-hidden">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-white dark:bg-slate-950 min-h-[50vh] flex items-center">
         <div className="max-w-7xl mx-auto w-full">
@@ -37,7 +37,7 @@ export default function HowItWorks() {
                 </h2>
               </div>
               <p className="text-lg text-slate-600 dark:text-slate-300">
-                Customer ne WhatsApp pe Enquiry bhej di? Koi baat nahi. QuotesMill sab format samjhta hai:
+                Lead ne WhatsApp pe Enquiry bheji? Koi baat nahi. QuotesMill sab format samjhta hai:
               </p>
               <ul className="space-y-3">
                 {['Text (Hindi/English/Hinglish)', 'Photos & drawings', 'Voice notes', 'IndiaMART/TradeIndia messages (forwarded)'].map((item, idx) => (
@@ -118,7 +118,7 @@ export default function HowItWorks() {
                 Professional quotation banao sirf 1-2 minutes mein. Quotation mein automatically include hota hai:
               </p>
               <ul className="space-y-3">
-                {['Company name & logo', 'Customer details', 'Item-wise pricing', 'GST calculation', 'Terms & conditions', 'Validity period (15/30 days)'].map((item, idx) => (
+                {['Company name & logo', 'Customer details', 'Item-wise pricing', 'Terms & conditions', 'Validity period (15/30 days)'].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3">
                     <CheckCircle size={20} className="text-green-600 flex-shrink-0" />
                     <span className="text-slate-700 dark:text-slate-300">{item}</span>
@@ -194,7 +194,7 @@ export default function HowItWorks() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700">
                 <h3 className="font-bold text-slate-900 dark:text-white mb-3">Pending Quotations</h3>
-                <p className="text-slate-600 dark:text-slate-300 mb-4">Day 3 pe: "Aapke quotation ke baare mein decision ho gaya?"</p>
+                <p className="text-slate-600 dark:text-slate-300 mb-4">Day 3 pe: "Humare Quotation pe aapka decision kya raha?"</p>
                 <p className="text-slate-600 dark:text-slate-300">Day 7 pe: Second follow-up</p>
               </div>
               <div className="bg-white dark:bg-slate-800 rounded-lg p-6 border border-slate-200 dark:border-slate-700">

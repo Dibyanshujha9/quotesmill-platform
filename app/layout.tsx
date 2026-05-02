@@ -13,23 +13,12 @@ export const metadata: Metadata = {
   description: 'WhatsApp-based solution for Indian manufacturers to manage inquiries, send quotations, and follow up. No app download needed.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/logo.png',
+    apple: '/logo.png',
   },
 }
+
+import { CookieConsent } from '@/components/sections/CookieConsent'
 
 export default function RootLayout({
   children,
@@ -40,6 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-sans antialiased">
         {children}
+        <CookieConsent />
         <Analytics />
       </body>
     </html>

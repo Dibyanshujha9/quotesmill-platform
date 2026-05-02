@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { Menu, X, MessageCircle } from 'lucide-react'
 
@@ -11,11 +12,16 @@ export function Navigation() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg bg-blue-900 flex items-center justify-center">
-              <span className="text-white font-bold text-sm">QM</span>
+            <div className="relative w-16 h-16 overflow-hidden rounded-lg">
+              <Image
+                src="/logo.png"
+                alt="QuotesMill Logo"
+                fill
+                className="object-contain"
+              />
             </div>
             <div className="hidden sm:flex flex-col">
               <span className="font-bold text-slate-900 dark:text-white leading-tight">
@@ -38,6 +44,9 @@ export function Navigation() {
             </Link>
             <Link href="/features" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
               Features
+            </Link>
+            <Link href="/pricing" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors font-semibold text-blue-600 dark:text-blue-400">
+              Pricing
             </Link>
             <Link href="/faq" className="text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white transition-colors">
               FAQs
@@ -83,6 +92,9 @@ export function Navigation() {
             </Link>
             <Link href="/features" className="block px-4 py-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors">
               Features
+            </Link>
+            <Link href="/pricing" className="block px-4 py-2 font-semibold text-blue-600 dark:text-blue-400 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors">
+              Pricing
             </Link>
             <Link href="/faq" className="block px-4 py-2 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors">
               FAQs

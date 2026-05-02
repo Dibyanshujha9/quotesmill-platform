@@ -66,7 +66,7 @@ export function EarlyAccessSection() {
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white text-balance">
             Sabse Phele Access Paao
           </h2>
-          
+
           <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 dark:text-white">
             Subscribe Kijiye !!!
           </h3>
@@ -131,7 +131,7 @@ export function EarlyAccessSection() {
               {/* Company Owner Name */}
               <div>
                 <label className="block text-sm font-semibold text-slate-900 dark:text-white mb-2">
-                  Company/Business Owner's Full Name
+                  Business Owner's Full Name
                 </label>
                 <Input
                   type="text"
@@ -147,7 +147,7 @@ export function EarlyAccessSection() {
               {/* Business Name */}
               <div>
                 <label className="block text-sm font-semibold text-slate-900 dark:text-white mb-2">
-                  Company's or Business Name
+                  Business Name
                 </label>
                 <Input
                   type="text"
@@ -261,7 +261,7 @@ export function EarlyAccessSection() {
           </div>
           <div className="space-y-2">
             <p className="text-2xl font-bold text-slate-900 dark:text-white">Immediate</p>
-            <p className="text-sm text-slate-600 dark:text-slate-300">Onboarding Assistance</p>
+            <p className="text-sm text-slate-600 dark:text-slate-300">On-spot Onboarding Assistance</p>
           </div>
           <div className="space-y-2">
             <p className="text-2xl font-bold text-slate-900 dark:text-white">₹0</p>
