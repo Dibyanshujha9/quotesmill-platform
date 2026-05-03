@@ -5,10 +5,13 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Card } from '@/components/ui/card'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
-import { CheckCircle2, Zap } from 'lucide-react'
+import { CheckCircle2, Zap, Loader2 } from 'lucide-react'
+import emailjs from '@emailjs/browser'
 
 export function EarlyAccessSection() {
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [error, setError] = useState('')
   const [formData, setFormData] = useState({
     fullName: '',
     designation: '',
@@ -34,12 +37,49 @@ export function EarlyAccessSection() {
     })
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData)
-    setIsSubmitted(true)
-    setTimeout(() => setIsSubmitted(false), 3000)
+    setIsSubmitting(true)
+    setError('')
+
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+
+    if (!serviceId || !templateId || !publicKey) {
+      setError('System configuration error. Please try again later.')
+      setIsSubmitting(false)
+      return
+    }
+
+    try {
+      emailjs.init(publicKey)
+      await emailjs.send(
+        serviceId,
+        templateId,
+        {
+          from_name: formData.fullName,
+          subject: '[Early Access Registration]',
+          full_name: formData.fullName,
+          designation: formData.designation,
+          mobile_number: formData.mobileNumber,
+          owner_name: formData.ownerName,
+          business_name: formData.businessName,
+          whatsapp_number: formData.whatsappNumber,
+          city: formData.city,
+          business_type: formData.businessType,
+          message: `New Early Access Registration from ${formData.businessName}`,
+          reply_to: 'contact@quotesmill.com',
+        }
+      )
+
+      setIsSubmitted(true)
+    } catch (err: any) {
+      console.error('EmailJS Error:', err)
+      setError('Bhejne mein dikkat hui. Please WhatsApp par contact karein.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const businessTypes = [
@@ -80,6 +120,12 @@ export function EarlyAccessSection() {
         <Card className="p-8 sm:p-10 border border-slate-200 dark:border-slate-700 shadow-lg animate-in slide-up duration-500">
           {!isSubmitted ? (
             <form onSubmit={handleSubmit} className="space-y-6">
+              {error && (
+                <div className="p-4 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg text-red-600 dark:text-red-400 text-sm">
+                  {error}
+                </div>
+              )}
+              
               {/* Full Name */}
               <div>
                 <label className="block text-sm font-semibold text-slate-900 dark:text-white mb-2">
@@ -214,9 +260,17 @@ export function EarlyAccessSection() {
               {/* Submit Button */}
               <Button
                 type="submit"
-                className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-lg transition-colors"
+                disabled={isSubmitting}
+                className="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 rounded-lg transition-colors flex items-center justify-center gap-2"
               >
-                Get Early access Now
+                {isSubmitting ? (
+                  <>
+                    <Loader2 className="w-5 h-5 animate-spin" />
+                    Bhej Rahe Hain...
+                  </>
+                ) : (
+                  'Get Early access Now'
+                )}
               </Button>
 
               <p className="text-xs text-slate-500 dark:text-slate-400 text-center">

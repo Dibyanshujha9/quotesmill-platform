@@ -43,7 +43,7 @@ export function UseCaseSection() {
         {/* Section header */}
         <div className="text-center mb-16 space-y-4 animate-in fade-in duration-500">
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white text-balance">
-            Kaunse Manufacturers Use Kar Sakte Hain
+            Kaun-Kaun Use Kar Sakte Hain ?
           </h2>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
             Yeh workflow perfect hai kisi bhi manufacturer yaa job-works (irrespective of their specific manufacturing categories) klye. Jinka business mostly WhatsApp se chalta hai ya migrate krna chahte hain yaa jinhein lead capture krke apni sales cycle choti krni hai quick quotation and follow-ups krke with minimum manual efforts.

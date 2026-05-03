@@ -30,7 +30,7 @@ export function HeroSection() {
           <div className="space-y-6 animate-in slide-in-from-left duration-700">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-green-50 dark:bg-green-900/20 rounded-full border border-green-200 dark:border-green-800/50">
               <MessageCircle size={16} className="text-green-600 dark:text-green-400" />
-              <span className="text-sm font-medium text-green-700 dark:text-green-300">Built exclusively for MSMEs</span>
+              <span className="text-sm font-medium text-green-700 dark:text-green-300">Built exclusively for Bharatiya MSMEs.</span>
             </div>
 
             <h1 className="text-5xl sm:text-6xl lg:text-6xl font-bold text-balance leading-tight text-slate-900 dark:text-white">

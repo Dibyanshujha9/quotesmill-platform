@@ -59,7 +59,7 @@ export default function About() {
               },
               {
                 title: 'Plastic Parts Makers',
-                desc: 'High-volume inquiries, har customer track karna padta hai, follow-up time lagta hai',
+                desc: 'High-volume inquiries, har lead track karna padta hai, follow-up time lagta hai',
               },
               {
                 title: 'Sheet Metal & Fabrication',
@@ -84,7 +84,7 @@ export default function About() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50 dark:bg-slate-900/50">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-12 text-center">
-            Hamara Tarika
+            Quotesmill Concept
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
@@ -133,8 +133,8 @@ export default function About() {
           </h2>
           <div className="bg-slate-50 dark:bg-slate-800 rounded-lg p-8 border border-slate-200 dark:border-slate-700 space-y-4 text-center">
             <p><span className="font-bold text-slate-900 dark:text-white">Company Name:</span> QuotesMill Tech Solutions LLP</p>
-            <p><span className="font-bold text-slate-900 dark:text-white">Jurisdiction:</span> India</p>
-            <p><span className="font-bold text-slate-900 dark:text-white">Status:</span> Building in public, beta launching soon</p>
+            <p><span className="font-bold text-slate-900 dark:text-white">Jurisdiction:</span> Gurugram, Haryana, India</p>
+            <p><span className="font-bold text-slate-900 dark:text-white">Status:</span> Active since 16th April 2026</p>
             <p><span className="font-bold text-slate-900 dark:text-white">Contact:</span> contact@quotesmill.com</p>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default function About() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-900 to-green-700 text-white">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <h2 className="text-4xl font-bold">
-            Samjh Aayi? Ab Shuru Karte Hain
+            Samjh Aayi? Ab Shuru Karte Hain !
           </h2>
           <p className="text-xl opacity-90">
             Early access ke liye aaj hi register karo aur sabse pehle QuotesMill use karo.

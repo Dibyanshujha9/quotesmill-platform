@@ -26,7 +26,7 @@ export function WhatsAppChat() {
         {/* Customer message */}
         <div className="flex justify-end">
           <div className="bg-gradient-to-r from-indigo-900 to-indigo-800 text-white rounded-2xl rounded-tr-none px-3 py-2 max-w-xs text-sm">
-            <p>I need a quote for 50 units of your premium service</p>
+            <p>I need a quote for 50 units of 25mm * 25mm MS Bolts</p>
             <div className="flex justify-end gap-1 mt-1">
               <CheckCheck size={14} className="opacity-70" />
             </div>
